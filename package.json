@@ -2,7 +2,6 @@
   "name": "miltransition-planner",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://bahdebop.github.io/military-transition-calculator",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
