@@ -14,7 +14,6 @@ import {
   calculatePTDY,
   getPTDYPeriods,
   validatePTDYTerminalLeave,
-  calculateTotalPTDYDays,
   calculateTotalTransitionDays,
   validateTransitionLimit,
   parseLocalDate
