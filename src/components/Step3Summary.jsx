@@ -90,10 +90,6 @@ const Step3Summary = ({ formData, onBack, onRestart }) => {
     return sum + differenceInDays(parseLocalDate(leave.endDate), parseLocalDate(leave.startDate)) + 1;
   }, 0);
 
-  const totalPTDYDays = useMemo(() => {
-    return calculateTotalPTDYDays(formData.separationType, formData.dutyStation, formData.skillbridge, formData.ptdyBlocks);
-  }, [formData.separationType, formData.dutyStation, formData.skillbridge, formData.ptdyBlocks]);
-
   const totalTransitionDays = useMemo(() => {
     return calculateTotalTransitionDays(
       formData.skillbridge,

@@ -95,7 +95,7 @@ const GanttChart = ({ formData, ptdyDays, terminalLeaveStartDate, totalTransitio
     tasks.sort((a, b) => a.offsetDays - b.offsetDays);
 
     return { tasks, totalDays, startDate, endDate };
-  }, [formData, ptdyDays, terminalLeaveStartDate]);
+  }, [formData, terminalLeaveStartDate]);
 
   const monthMarkers = useMemo(() => {
     const markers = [];
